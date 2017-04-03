@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA3D44551E9274B200A3AE46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D44541E9274B200A3AE46 /* AppDelegate.swift */; };
+		EA3D44571E9274B200A3AE46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D44561E9274B200A3AE46 /* ViewController.swift */; };
+		EA3D445A1E9274B200A3AE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3D44581E9274B200A3AE46 /* Main.storyboard */; };
+		EA3D445C1E9274B200A3AE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3D445B1E9274B200A3AE46 /* Assets.xcassets */; };
+		EA3D445F1E9274B200A3AE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3D445D1E9274B200A3AE46 /* LaunchScreen.storyboard */; };
+		EA3D446A1E9274B200A3AE46 /* iPatelDemoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3D44691E9274B200A3AE46 /* iPatelDemoAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA3D44661E9274B200A3AE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA3D44491E9274B200A3AE46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA3D44501E9274B200A3AE46;
+			remoteInfo = iPatelDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA3D44511E9274B200A3AE46 /* iPatelDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPatelDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3D44541E9274B200A3AE46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA3D44561E9274B200A3AE46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA3D44591E9274B200A3AE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA3D445B1E9274B200A3AE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3D445E1E9274B200A3AE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA3D44601E9274B200A3AE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3D44651E9274B200A3AE46 /* iPatelDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPatelDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3D44691E9274B200A3AE46 /* iPatelDemoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPatelDemoAppTests.swift; sourceTree = "<group>"; };
+		EA3D446B1E9274B200A3AE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA3D444E1E9274B200A3AE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3D44621E9274B200A3AE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA3D44481E9274B200A3AE46 = {
+			isa = PBXGroup;
+			children = (
+				EA3D44531E9274B200A3AE46 /* iPatelDemoApp */,
+				EA3D44681E9274B200A3AE46 /* iPatelDemoAppTests */,
+				EA3D44521E9274B200A3AE46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3D44521E9274B200A3AE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA3D44511E9274B200A3AE46 /* iPatelDemoApp.app */,
+				EA3D44651E9274B200A3AE46 /* iPatelDemoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3D44531E9274B200A3AE46 /* iPatelDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				EA3D44541E9274B200A3AE46 /* AppDelegate.swift */,
+				EA3D44561E9274B200A3AE46 /* ViewController.swift */,
+				EA3D44581E9274B200A3AE46 /* Main.storyboard */,
+				EA3D445B1E9274B200A3AE46 /* Assets.xcassets */,
+				EA3D445D1E9274B200A3AE46 /* LaunchScreen.storyboard */,
+				EA3D44601E9274B200A3AE46 /* Info.plist */,
+			);
+			path = iPatelDemoApp;
+			sourceTree = "<group>";
+		};
+		EA3D44681E9274B200A3AE46 /* iPatelDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3D44691E9274B200A3AE46 /* iPatelDemoAppTests.swift */,
+				EA3D446B1E9274B200A3AE46 /* Info.plist */,
+			);
+			path = iPatelDemoAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA3D44501E9274B200A3AE46 /* iPatelDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3D446E1E9274B200A3AE46 /* Build configuration list for PBXNativeTarget "iPatelDemoApp" */;
+			buildPhases = (
+				EA3D444D1E9274B200A3AE46 /* Sources */,
+				EA3D444E1E9274B200A3AE46 /* Frameworks */,
+				EA3D444F1E9274B200A3AE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPatelDemoApp;
+			productName = iPatelDemoApp;
+			productReference = EA3D44511E9274B200A3AE46 /* iPatelDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA3D44641E9274B200A3AE46 /* iPatelDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3D44711E9274B200A3AE46 /* Build configuration list for PBXNativeTarget "iPatelDemoAppTests" */;
+			buildPhases = (
+				EA3D44611E9274B200A3AE46 /* Sources */,
+				EA3D44621E9274B200A3AE46 /* Frameworks */,
+				EA3D44631E9274B200A3AE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3D44671E9274B200A3AE46 /* PBXTargetDependency */,
+			);
+			name = iPatelDemoAppTests;
+			productName = iPatelDemoAppTests;
+			productReference = EA3D44651E9274B200A3AE46 /* iPatelDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA3D44491E9274B200A3AE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = LetsNurture;
+				TargetAttributes = {
+					EA3D44501E9274B200A3AE46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3XU2FJ59BN;
+						ProvisioningStyle = Manual;
+					};
+					EA3D44641E9274B200A3AE46 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA3D44501E9274B200A3AE46;
+					};
+				};
+			};
+			buildConfigurationList = EA3D444C1E9274B200A3AE46 /* Build configuration list for PBXProject "iPatelDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA3D44481E9274B200A3AE46;
+			productRefGroup = EA3D44521E9274B200A3AE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA3D44501E9274B200A3AE46 /* iPatelDemoApp */,
+				EA3D44641E9274B200A3AE46 /* iPatelDemoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA3D444F1E9274B200A3AE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3D445F1E9274B200A3AE46 /* LaunchScreen.storyboard in Resources */,
+				EA3D445C1E9274B200A3AE46 /* Assets.xcassets in Resources */,
+				EA3D445A1E9274B200A3AE46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3D44631E9274B200A3AE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA3D444D1E9274B200A3AE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3D44571E9274B200A3AE46 /* ViewController.swift in Sources */,
+				EA3D44551E9274B200A3AE46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3D44611E9274B200A3AE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3D446A1E9274B200A3AE46 /* iPatelDemoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA3D44671E9274B200A3AE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA3D44501E9274B200A3AE46 /* iPatelDemoApp */;
+			targetProxy = EA3D44661E9274B200A3AE46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA3D44581E9274B200A3AE46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3D44591E9274B200A3AE46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA3D445D1E9274B200A3AE46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3D445E1E9274B200A3AE46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA3D446C1E9274B200A3AE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA3D446D1E9274B200A3AE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3D446F1E9274B200A3AE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XU2FJ59BN;
+				INFOPLIST_FILE = iPatelDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iPatelDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5bec40b7-0062-4595-9e62-ed9d84bda978";
+				PROVISIONING_PROFILE_SPECIFIER = "Letsnurture developer Wild card";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA3D44701E9274B200A3AE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XU2FJ59BN;
+				INFOPLIST_FILE = iPatelDemoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iPatelDemoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5bec40b7-0062-4595-9e62-ed9d84bda978";
+				PROVISIONING_PROFILE_SPECIFIER = "Letsnurture developer Wild card";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA3D44721E9274B200A3AE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iPatelDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iPatelDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPatelDemoApp.app/iPatelDemoApp";
+			};
+			name = Debug;
+		};
+		EA3D44731E9274B200A3AE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iPatelDemoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iPatelDemoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPatelDemoApp.app/iPatelDemoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA3D444C1E9274B200A3AE46 /* Build configuration list for PBXProject "iPatelDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3D446C1E9274B200A3AE46 /* Debug */,
+				EA3D446D1E9274B200A3AE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3D446E1E9274B200A3AE46 /* Build configuration list for PBXNativeTarget "iPatelDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3D446F1E9274B200A3AE46 /* Debug */,
+				EA3D44701E9274B200A3AE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA3D44711E9274B200A3AE46 /* Build configuration list for PBXNativeTarget "iPatelDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3D44721E9274B200A3AE46 /* Debug */,
+				EA3D44731E9274B200A3AE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA3D44491E9274B200A3AE46 /* Project object */;
+}
