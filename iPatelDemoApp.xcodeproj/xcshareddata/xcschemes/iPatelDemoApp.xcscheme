@@ -20,6 +20,20 @@
                ReferencedContainer = "container:iPatelDemoApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EA3D44641E9274B200A3AE46"
+               BuildableName = "iPatelDemoAppTests.xctest"
+               BlueprintName = "iPatelDemoAppTests"
+               ReferencedContainer = "container:iPatelDemoApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction

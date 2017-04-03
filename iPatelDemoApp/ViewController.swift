@@ -11,7 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()  
+        super.viewDidLoad()
+        
+        print("Just changed deployment targate")
     }
 
     override func didReceiveMemoryWarning() {
